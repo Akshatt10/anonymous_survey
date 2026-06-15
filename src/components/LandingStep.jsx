@@ -4,13 +4,13 @@ export default function LandingStep({ onStart }) {
       <div className="landing-icon">
         <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
           <circle cx="24" cy="24" r="23" stroke="url(#grad1)" strokeWidth="2" />
-          <circle cx="16" cy="20" r="4" fill="#c9a0dc" />
-          <circle cx="32" cy="20" r="4" fill="#e8a0b4" />
-          <circle cx="24" cy="32" r="4" fill="#a0c4e8" />
+          <circle cx="16" cy="20" r="4" fill="#C4B4A1" />
+          <circle cx="32" cy="20" r="4" fill="#D9CBB8" />
+          <circle cx="24" cy="32" r="4" fill="#B09B86" />
           <defs>
             <linearGradient id="grad1" x1="0" y1="0" x2="48" y2="48">
-              <stop offset="0%" stopColor="#c9a0dc" />
-              <stop offset="100%" stopColor="#e8a0b4" />
+              <stop offset="0%" stopColor="#C4B4A1" />
+              <stop offset="100%" stopColor="#D9CBB8" />
             </linearGradient>
           </defs>
         </svg>

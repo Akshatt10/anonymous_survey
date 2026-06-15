@@ -21,8 +21,8 @@ export default function ThankYouStep() {
           />
           <defs>
             <linearGradient id="grad2" x1="0" y1="0" x2="64" y2="64">
-              <stop offset="0%" stopColor="#c9a0dc" />
-              <stop offset="100%" stopColor="#e8a0b4" />
+              <stop offset="0%" stopColor="#C4B4A1" />
+              <stop offset="100%" stopColor="#D9CBB8" />
             </linearGradient>
           </defs>
         </svg>
