@@ -2,23 +2,18 @@ export default function LandingStep({ onStart }) {
   return (
     <div className="landing-content">
       <div className="landing-icon">
-        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-          <circle cx="24" cy="24" r="23" stroke="url(#grad1)" strokeWidth="2" />
-          <circle cx="16" cy="20" r="4" fill="#C4B4A1" />
-          <circle cx="32" cy="20" r="4" fill="#D9CBB8" />
-          <circle cx="24" cy="32" r="4" fill="#B09B86" />
-          <defs>
-            <linearGradient id="grad1" x1="0" y1="0" x2="48" y2="48">
-              <stop offset="0%" stopColor="#C4B4A1" />
-              <stop offset="100%" stopColor="#D9CBB8" />
-            </linearGradient>
-          </defs>
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="36" fill="#E2E2E2" />
+          <circle cx="40" cy="38" r="36" fill="white" />
+          <circle cx="40" cy="40" r="36" stroke="#292744" strokeWidth="6" />
+          <path d="M24 30C24 24.5 32 24.5 32 30" stroke="#292744" strokeWidth="6" strokeLinecap="round" />
+          <path d="M48 30C48 24.5 56 24.5 56 30" stroke="#292744" strokeWidth="6" strokeLinecap="round" />
+          <path d="M28 46C28 46 34 54 40 54C46 54 52 46 52 46" stroke="#292744" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </div>
       <h1>Visual Impressions</h1>
       <p className="landing-subtitle">
-        Help us understand your first impressions. Take a quick look at each
-        moodboard and choose the option that best matches what comes to mind.
+        We'd love to know your first thoughts! Take a quick look at each style board and pick the feeling that matches best.
       </p>
       <div className="landing-meta">
         <span className="meta-tag">
